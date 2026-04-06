@@ -1,0 +1,5 @@
+.main-container {
+  display: flex;
+  background-color: var(--Blue900);
+  max-width: 560px;
+}

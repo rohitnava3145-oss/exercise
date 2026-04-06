@@ -1,3 +1,5 @@
+@import url("./main.css");
+
 @font-face {
   font-display: swap;
   font-family: "Outfit";
@@ -25,7 +27,7 @@
   --blue500: hsl(215, 51%, 70%);
   --Cyan400: hsl(178, 100%, 50%);
   --Blue950: hsl(217, 54%, 11%);
-  --Blue: hsl(216, 50%, 16%);
+  --Blue900: hsl(216, 50%, 16%);
   --Blue: hsl(215, 32%, 27%);
   --White: hsl(0, 0%, 100%);
 }
