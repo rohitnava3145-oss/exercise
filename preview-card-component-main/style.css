@@ -1,0 +1,39 @@
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/outfit-v15-latin-300.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/outfit-v15-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/outfit-v15-latin-600.woff2") format("woff2");
+}
+
+:root {
+  --blue500: hsl(215, 51%, 70%);
+  --Cyan400: hsl(178, 100%, 50%);
+  --Blue950: hsl(217, 54%, 11%);
+  --Blue: hsl(216, 50%, 16%);
+  --Blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+html {
+  font-size: 18px;
+  font-family: "outfit", sans-serif;
+}
+
+body {
+  background-color: var(--Blue950);
+}
