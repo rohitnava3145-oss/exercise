@@ -1,4 +1,5 @@
 @import url("./main.css");
+@import url("./mobile.main.css");
 
 @font-face {
   font-display: swap;
@@ -28,14 +29,28 @@
   --Cyan400: hsl(178, 100%, 50%);
   --Blue950: hsl(217, 54%, 11%);
   --Blue900: hsl(216, 50%, 16%);
-  --Blue: hsl(215, 32%, 27%);
+  --Blue800: hsl(215, 32%, 27%);
   --White: hsl(0, 0%, 100%);
+  --shadow: hsl(0, 0, 0);
 }
 html {
   font-size: 18px;
   font-family: "outfit", sans-serif;
 }
 
+*{
+  padding: unset;
+  margin: unset;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: var(--Blue950);
+       height: 100vh;
+       width: 100%;
+      background-color: var(--Blue950);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
 }
