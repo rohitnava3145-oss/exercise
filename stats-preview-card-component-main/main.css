@@ -2,7 +2,7 @@
     background-color: var(--Blue950);
     display: flex;
     gap:1em;
-    height: 52vh;
+    height: 49vh;
     border-radius:5px;
     overflow: hidden;
     
@@ -26,7 +26,7 @@
     margin-right:75px;
 }
 .team-profile{
-    width:380px;
+    width:430px;
 }
  
 h1{
