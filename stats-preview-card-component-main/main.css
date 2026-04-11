@@ -1,0 +1,67 @@
+.main-container{
+    background-color: var(--Blue950);
+    display: flex;
+    gap:1em;
+    height: 52vh;
+    border-radius:5px;
+    overflow: hidden;
+    
+
+}
+.content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 1.5em;
+    width:360px;
+}
+.strength{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.7em;
+    margin-right:75px;
+}
+.team-profile{
+    width:380px;
+}
+ 
+h1{
+    display: inline-block;
+    color:hsl(0,0% ,100%);
+    font-size:1.9em;
+    font-weight: 700;
+}
+.highlight{
+    color: hsl(277, 64%, 61%);
+    font-size:1em ;
+    font-weight: 700;
+}
+.paragraph{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 1em;
+    margin-bottom: 23px;
+
+}
+
+.num,.storage,.visited-rate{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 1.1em;
+}
+.topic,.stats,.visited{
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: capitalize;
+    font-size:0.6em ;
+}
+
+
+
+  
+
+
+
+

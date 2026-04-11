@@ -1,0 +1,17 @@
+@media (max-width:425px){.main-container{
+
+    min-width: 375px;
+    flex-direction: column-reverse;
+
+ }
+
+ .main-container{
+    gap: 1.5em;
+ }
+
+}
+
+
+
+
+

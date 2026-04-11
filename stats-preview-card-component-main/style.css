@@ -1,0 +1,54 @@
+@import url("./main.css");
+@import url(./mobile.main.css);
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/inter-v20-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/inter-v20-latin-700.woff2') format('woff2');
+}
+
+/* lexend-deca-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/lexend-deca-v25-latin-regular.woff2') format('woff2');
+}
+
+:root{
+--Navy950: hsl(233, 47%, 7%);/*main background*/
+--Blue950: hsl(244, 37%, 16%);/*card background*/
+--Purple500: hsl(277, 64%, 61%);/*accent*/
+--White: hsl(0, 0%, 100%);/*main heading, stats*/
+--White: hsla(0, 0%, 100%, 0.75);/*main paragraph*/
+--White: hsla(0, 0%, 100%, 0.6);/*stat headings*/
+}
+
+*{
+  padding: unset;
+  margin: unset;
+  box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+    font-family:"inter",sans-serif
+}
+body{
+    background-color:var(--Navy950);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
