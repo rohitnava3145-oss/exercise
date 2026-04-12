@@ -2,7 +2,7 @@
     background-color: var(--Blue950);
     display: flex;
     gap:1em;
-    height: 56vh;
+    /*height: 56vh;*/
     border-radius:5px;
     overflow: hidden;
     
