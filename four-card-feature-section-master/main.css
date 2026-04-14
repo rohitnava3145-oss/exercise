@@ -1,0 +1,131 @@
+.main-box {
+  background-color: var(--white);
+  height: 100vh;
+}
+
+span {
+  color: hsl(212, 6%, 44%);
+  font-weight: 400;
+  font-size: 1.4em;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+.content {
+  color: hsl(212, 6%, 44%);
+  font-weight: 200;
+  font-size: 0.7em;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+.content-details {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 3em;
+}
+h2,
+h3,
+h4,
+h5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 0.8em;
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+p {
+  color: hsl(212, 6%, 44%);
+  font-weight: 200;
+  font-size: 1em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.box-items1 {
+  width: 280px;
+  height: 200px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: hsl(234, 12%, 34%);
+  font-weight: 400;
+  font-size: 0.8em;
+  border-radius: 5px;
+  margin-top: 155px;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  box-shadow:
+    0 4px 6px 0 rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.box-items2 {
+  background-color: var(--white);
+  font-size: 0.8em;
+  font-weight: 400;
+  width: 280px;
+  height: 200px;
+  padding: 20px;
+  margin: 0 30px;
+  margin-bottom: 2em;
+  color: hsl(234, 12%, 34%);
+  border-radius: 5px;
+  border-top: 3px solid hsl(0, 78%, 62%);
+  box-shadow:
+    0 4px 6px 0 rgba(0, 0, 0, 0.2),
+    0 6px 10px rgba(0, 0, 0, 0.19);
+}
+
+.box-items3 {
+  background-color: var(--white);
+  font-size: 0.8em;
+  font-weight: 400;
+  width: 280px;
+  height: 200px;
+  padding: 20px;
+  margin: 0 30px;
+  color: hsl(234, 12%, 34%);
+  border-radius: 5px;
+  border-top: 3px solid hsl(34, 97%, 64%);
+  box-shadow:
+    0 4px 6px 0 rgba(0, 0, 0, 0.2),
+    0 6px 10px rgba(0, 0, 0, 0.19);
+}
+
+.box-items4 {
+  background-color: var(--white);
+  font-size: 0.8em;
+  font-weight: 400;
+  width: 280px;
+  height: 200px;
+  padding: 20px;
+  margin-top: 155px;
+  color: hsl(234, 12%, 34%);
+  border-radius: 5px;
+  border-top: 3px solid hsl(212, 86%, 64%);
+  box-shadow:
+    0 4px 6px 0 rgba(0, 0, 0, 0.2),
+    0 6px 10px rgba(0, 0, 0, 0.19);
+}
+
+.workers,
+.management,
+.talents,
+.operator {
+  margin-top: 20px;
+  float: right;
+}

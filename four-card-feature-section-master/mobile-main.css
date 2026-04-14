@@ -1,0 +1,38 @@
+@media (max-width: 425px) {
+  html {
+    font-size: 13px;
+  }
+  .main-box {
+    max-width: 320px;
+    text-align: center;
+  }
+  .content-details {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .box-items1,
+  .box-items2,
+  .box-items3,
+  .box-items4 {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  .workers,
+  .management,
+  .talents,
+  .operator {
+    flex-wrap: wrap;
+  }
+  p {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  .content {
+    font-size: 1em;
+    width: 70%;
+  }
+}
