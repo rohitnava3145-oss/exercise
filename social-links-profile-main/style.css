@@ -1,51 +1,54 @@
-@font-face{
-    font-display: swap;
-    font-family:"inter";
-    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+@font-face {
+  font-display: swap;
+  font-family: "inter";
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
-html{
-    font-family:"inter",sans-serif ;
+html {
+  font-family: "inter", sans-serif;
 }
-body{
-    color: hsl(0, 0%, 100%);
-    background-color:  hsl(0, 0%, 8%);
+body {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
 }
- section{
-    max-width: 360px;
-    padding: 24px;
-    text-align: center;
-    margin: auto auto;
-    background-color:  hsl(0, 0%, 12%);
-    margin-top: calc((100vh-680px) /2 );
+#root {
+  margin-block: 3.5em;
+}
+section {
+  max-width: 360px;
+  padding: 24px;
+  text-align: center;
+  margin: auto auto;
+  background-color: hsl(0, 0%, 12%);
+  margin-top: calc((100vh-680px) / 2);
+}
 
- }
-
- header{
-    margin-bottom: 26px;
- }
- a{
-    color:  hsl(0, 0%, 100%);
-    background-color:  hsl(0, 0%, 20%);
-    display: block;
-    padding: 16px;
-    text-transform: capitalize;
-    margin-block: 16px;
-    font-weight: 600;
-    text-decoration: none;
- }
- header h1 ,
- p{
-    margin: 14px;
-    text-transform: capitalize;
- }
- img{
-    max-width: 96px;
-    border-radius: 100%;
-    margin-bottom: 24px;
- }
- .profile-location{
-    color: hsl(75, 94%, 57%);
-    font-weight: 600;
-    text-transform: capitalize;
- }
+header {
+  margin-bottom: 26px;
+}
+a {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  display: block;
+  padding: 16px;
+  text-transform: capitalize;
+  margin-block: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+header h1,
+p {
+  margin: 14px;
+  text-transform: capitalize;
+}
+img {
+  max-width: 96px;
+  border-radius: 100%;
+  margin-bottom: 24px;
+}
+.profile-location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  text-transform: capitalize;
+}
