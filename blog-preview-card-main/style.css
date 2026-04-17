@@ -1,0 +1,26 @@
+@import url("./main.css");
+
+@font-face {
+    font-display:swap;
+    font-family:"figtree";
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+:root{
+
+    --yellow:#F4D04E;
+    --Gray-950:#111111;
+    --Gray-500:#6B6B6B;
+    --white:#FFFFFF;
+}
+
+html{
+
+    font-size:16px;
+    font-family:"figtree",sans-serif;
+
+}
+body{
+    margin: 0;
+    background-color: var(--yellow);
+}
