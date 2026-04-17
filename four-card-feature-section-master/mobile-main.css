@@ -22,18 +22,17 @@
     margin-top: 20px;
     flex-wrap: wrap;
     margin-bottom: 30px;
-    text-align: start;
   }
   .workers,
   .management,
   .talents,
   .operator {
     flex-wrap: wrap;
+    align-items: start;
   }
   p {
-    display: flex;
-    align-items: start;
-    justify-content: start;
+    text-align: start;
+    width: 100%;
   }
   .content {
     font-size: 1em;
