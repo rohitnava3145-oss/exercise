@@ -1,10 +1,18 @@
-@media (max-width:425px){
-    .main.container{
-        min-width:280px;
-        max-width:300px;
-    }
+@media (max-width: 425px) {
+  html {
+    font-size: 14px;
+  }
+  .main-container {
+    max-width: 320px;
+    padding: 20px;
+  }
+  .details {
+    font-size: 0.9em;
+  }
+  .profile-name {
+    font-size: 0.8em;
+  }
+  .arts {
+    font-size: 0.9em;
+  }
 }
-
-
-
-
