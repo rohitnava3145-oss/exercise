@@ -1,0 +1,43 @@
+@import "./main.css";
+@import "./mobile.css";
+
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/outfit-v15-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/outfit-v15-latin-700.woff2") format("woff2");
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+
+  --slate300: hsl(212, 45%, 89%);
+  --slate500: hsl(216, 15%, 48%);
+  --slate900: hsl(218, 44%, 22%);
+}
+
+html {
+  font-size: 15px;
+  font-family: "outfit", sans-serif;
+}
+* {
+  padding: unset;
+  margin: unset;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--slate300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 200px;
+}

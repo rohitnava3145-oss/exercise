@@ -1,0 +1,25 @@
+.main-box {
+  background-color: var(--white);
+  width: 345px;
+  padding: 1.5em;
+  height: 535px;
+  margin-block: 10px;
+  border-radius: 20px;
+}
+.qr-code {
+  width: 300px;
+  border-radius: 10px;
+}
+.heading {
+  font-size: 1.6em;
+  font-weight: 700;
+  text-align: center;
+  color: var(--slate900);
+  padding-block: 25px;
+}
+.content {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--slate300);
+  text-align: center;
+}
