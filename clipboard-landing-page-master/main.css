@@ -1,11 +1,19 @@
 #root {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 6.5em;
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
 }
 .container {
   max-width: 576px;
   text-align: center;
+}
+img {
+  display: block;
+  width: 100%;
 }
 #hero_section {
   text-align: center;
@@ -13,15 +21,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 10em;
   gap: 3em;
-  min-height: 80vh;
+}
+#hero_section .logo {
+  max-width: 160px;
 }
 .base-heading {
   font-size: 2.15em;
 }
-
-.base-heading,
 .sub-base-heading {
+  font-size: 2em;
+}
+.sub-base-heading-3 {
+  font-size: 1.4em;
+}
+.base-heading,
+.sub-base-heading,
+.sub-base-heading-3 {
   margin-block: 0.5em;
   color: var(--Gray700);
 }
@@ -41,6 +58,7 @@
   padding: 1em 2em;
   color: white;
   margin-block: 1.44em;
+  font-weight: 600;
   border-radius: 1000px;
 }
 .controls-button > #cta_download_ios {
@@ -48,4 +66,106 @@
 }
 .controls-button > #cta_download_mac {
   background-color: var(--Blue100);
+}
+#highlight_section,
+#mockup_section,
+#features_section,
+#clients_section,
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6em;
+}
+
+#highlight_section {
+  align-self: stretch;
+}
+#highlight_section > .container {
+  align-self: center;
+}
+.highlight-container {
+  display: flex;
+  gap: 8em;
+  align-items: center;
+}
+img.highlight-illustration {
+  display: block;
+  flex-basis: 50%;
+}
+.highlight-list {
+  list-style-type: none;
+  line-height: 1.5em;
+  flex-basis: 360px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.highlight {
+  margin-block: 2em;
+}
+#mockup_section {
+  align-self: center;
+
+  align-items: center;
+}
+#features_section {
+  align-self: stretch;
+  align-items: center;
+  gap: 5em;
+}
+
+.features-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-self: stretch;
+  justify-content: space-evenly;
+  gap: 3em;
+}
+.feature {
+  max-width: 360px;
+}
+.feature-icon {
+  max-width: 52px;
+  display: inline;
+  text-align: center;
+}
+
+#clients_section {
+  flex-direction: row;
+  align-items: center;
+}
+
+footer {
+  background-color: var(--Gray500a);
+  flex-direction: row;
+  align-self: stretch;
+  align-items: center;
+  padding: 3em;
+}
+
+footer .important-links {
+  display: flex;
+  flex-grow: 1;
+  gap: 3em;
+}
+
+footer > img {
+  width: 48px;
+}
+.important-links ul {
+  list-style-type: none;
+}
+.important-links ul > li {
+  line-height: 2;
+  justify-content: space-;
+  text-transform: capitalize;
+}
+
+.social-links {
+  display: flex;
+  align-items: end;
+  gap: 1em;
 }

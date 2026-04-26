@@ -3,8 +3,7 @@
     font-size: 14px;
   }
   .main-container {
-    max-width: 320px;
-    padding: 20px;
+    min-width: 320px;
   }
   .details {
     font-size: 0.9em;

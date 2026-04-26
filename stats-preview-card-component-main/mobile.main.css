@@ -1,8 +1,10 @@
 @media (max-width: 500px) {
   .main-container {
-    max-width: 425px;
-    max-height: 100vh;
+    min-width: 425px;
     flex-direction: column-reverse;
+  }
+  .content {
+    text-align: center;
   }
   h1 {
     font-size: 35px;
@@ -12,24 +14,26 @@
   .paragraph {
     font-size: 21px;
     text-align: center;
+    justify-content: center;
   }
 
   .strength {
     flex-direction: column;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin-left: 70px;
     gap: 1.5em;
   }
-  .topic,
-  .stats,
-  .visited {
-    font-size: 11px;
-  }
-  .num,
-  .storage {
-    margin-left: 18px;
-    text-align: center;
-  }
-  .visited-rate {
-    margin-left: 5px;
-  }
+}
+.num,
+.storage,
+.visited-rate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-profile {
+  min-width: 100px;
+  min-height: 300px;
 }
