@@ -2,8 +2,6 @@
   background-color: var(--white);
   width: 345px;
   padding: 1.5em;
-  height: 535px;
-  margin-block: 10px;
   border-radius: 20px;
 }
 .qr-code {
