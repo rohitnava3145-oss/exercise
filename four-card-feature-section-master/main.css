@@ -1,7 +1,6 @@
 .main-box {
   background-color: var(--white);
-  height: 100vh;
-  padding-block: 100px;
+  margin-block: 100px;
 }
 
 span {
@@ -31,7 +30,6 @@ span {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  /*margin-bottom: 3em;*/
 }
 h2,
 h3,
@@ -94,7 +92,7 @@ p {
   width: 280px;
   height: 200px;
   padding: 20px;
-  margin: 0 30px;
+  margin: 30px;
   color: hsl(234, 12%, 34%);
   border-radius: 5px;
   border-top: 3px solid hsl(34, 97%, 64%);

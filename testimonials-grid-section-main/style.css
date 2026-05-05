@@ -1,0 +1,54 @@
+@import "main.css";
+@import "responsive.css";
+
+/* barlow-semi-condensed-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/barlow-semi-condensed-v16-latin-500.woff2") format("woff2");
+}
+/* barlow-semi-condensed-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/barlow-semi-condensed-v16-latin-600.woff2") format("woff2");
+}
+/*### Neutral*/
+:root {
+  --white: hsl(0, 0%, 100%);
+  --grey100: hsl(214, 17%, 92%);
+  --grey200: hsl(0, 0%, 81%);
+  --grey400: hsl(224, 10%, 45%);
+  --grey500: hsl(217, 19%, 35%);
+  --darkblue: hsl(219, 29%, 14%);
+  --black: hsl(0, 0%, 7%);
+
+  /*### Primary*/
+  --purple50: hsl(260, 100%, 95%);
+  --purple300: hsl(264, 82%, 80%);
+  --purple500: hsl(263, 55%, 52%);
+}
+
+* {
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--white);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
