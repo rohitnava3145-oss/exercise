@@ -2,12 +2,13 @@
   .main-container {
     font-size: 14px;
     width: 360px;
-    padding: 15px;
+    padding-block: 10px;
+    padding-inline: 10px;
   }
-  .box-image {
-    margin-left: 15px;
-    width: 300px;
-    height: 270px;
+  .image-container {
+    margin-left: 10px;
+    width: 320px;
+    height: 295px;
   }
   .title-name,
   .details,
@@ -21,8 +22,8 @@
     width: 320px;
     font-size: 12px;
   }
-  .box-image {
-    margin-left: 10px;
-    width: 270px;
+  .image-container {
+    margin-left: 5px;
+    width: 290px;
   }
 }

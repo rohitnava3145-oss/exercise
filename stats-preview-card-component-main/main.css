@@ -24,8 +24,25 @@
   gap: 4.7em;
   margin-right: 70px;
 }
-.team-profile {
-  width: 390px;
+.profile {
+  position: relative;
+}
+div img {
+  display: block;
+  width: 450px;
+  height: 350px;
+}
+.profile::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 540px;
+  height: 100%;
+
+  background-color: var(--Purple500);
+  opacity: 0.5;
 }
 
 h1 {

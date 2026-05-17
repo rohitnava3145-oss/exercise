@@ -1,14 +1,14 @@
 .main-box {
   background-color: var(--white);
-  margin-block: 100px;
+  margin-block: 60px;
 }
 
 span {
   color: hsl(212, 6%, 44%);
   font-weight: 400;
   font-size: 1.4em;
-  margin-left: 323px;
-  text-align: center;
+  margin-left: 15.5em;
+  align-self: center;
 }
 .brand {
   color: hsl(234, 12%, 34%);
@@ -20,7 +20,7 @@ span {
 .content {
   color: hsl(212, 6%, 44%);
   font-weight: 200;
-  font-size: 0.7em;
+  font-size: 0.9em;
   text-align: center;
   width: 40%;
   margin: 0 auto;

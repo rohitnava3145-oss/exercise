@@ -1,56 +1,40 @@
-@media (max-width: 800px) {
-  .main-box {
-    min-width: 768px;
-  }
-
-  span {
-    margin-left: 305px;
-  }
+@media (max-width: 768px) {
   .box-items1,
   .box-items2,
   .box-items3,
   .box-items4 {
-    width: 230px;
-    height: 180px;
+    width: 225px;
     font-size: 10px;
   }
-  .box-items1 {
-    width: 230px;
-    margin-left: 10px;
-  }
-  .box-items4 {
-    margin-right: 10px;
-  }
-  span,
-  .brand {
-    font-size: 13px;
-    text-align: center;
-  }
-}
-@media (max-width: 500px) {
-  html {
-    font-size: 13px;
-  }
-  .main-box {
-    min-width: 425px;
+  .content {
+    font-size: 0.6em;
   }
   span {
-    margin-left: 133px;
-    text-align: center;
+    font-size: 1em;
+    margin-left: 275px;
   }
-
+  .brand {
+    font-size: 1em;
+  }
+}
+@media (max-width: 425px) {
+  span {
+    text-align: center;
+    margin-left: 60px;
+  }
   .content-details {
     flex-direction: column;
     align-items: center;
-    text-align: center;
   }
   .box-items1,
   .box-items2,
   .box-items3,
   .box-items4 {
-    margin-top: 20px;
+    margin-top: 18px;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+  }
+  .box-items4 {
+    margin-top: 3px;
   }
   .workers,
   .management,
