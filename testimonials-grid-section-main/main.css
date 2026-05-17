@@ -51,11 +51,13 @@
 }
 .pattern-pic {
   position: absolute;
+  top: 0;
   right: 40px;
-  top: 10px;
-  z-index: -1;
 }
-
+.main-box:nth-of-type(1) h1 {
+  position: relative;
+  z-index: 1;
+}
 .profile-name {
   font-size: 1.2em;
   color: var(--white);
